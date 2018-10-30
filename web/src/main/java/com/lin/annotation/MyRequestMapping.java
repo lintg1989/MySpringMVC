@@ -7,7 +7,7 @@ import java.lang.annotation.*;
  * @Date: 2018/10/12 11:37
  * @Description:
  */
-@Target({ElementType.TYPE, ElementType.METHOD})
+@Target({ElementType.TYPE, ElementType.METHOD})// 在方法上的注解
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface MyRequestMapping {

@@ -11,6 +11,7 @@
     <modules>
         <module>mvc</module>
         <module>web</module>
+        <module>mybatis</module>
     </modules>
 
 
